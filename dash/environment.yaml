@@ -1,0 +1,19 @@
+local:
+  directory:
+    application: './' 
+
+  debug: True
+
+
+staging:
+  directory:
+    application: '/home/debian/myapp/staging' 
+
+
+production:
+  directory:
+    application: '/home/debian/myapp/production' 
+
+  host: '0.0.0.0'
+  port: 8080
+  
